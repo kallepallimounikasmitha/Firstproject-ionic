@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>HomePage</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-text>
+    Welcome to the Home page {{un}} !
+  </ion-text>
+
+  <!-- <img src="imagepath"/> -->
+  <!-- <img src="{{img.dataUrl}}"/> -->
+
+  <img [src]="image"/>
+  <ion-button (click)="onClick()" >Take Photo</ion-button>
+
+
+  <ion-text>Hello</ion-text>
+  <img [src]= "transform()" />
+
+
+</ion-content>
